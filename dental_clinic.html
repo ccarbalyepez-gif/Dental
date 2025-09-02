@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Dental</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-text">
+            <h1>Bienvenidos a Nuestro Consultorio Dental</h1>
+            <p>Transformamos sonrisas con tecnología de punta y un equipo de expertos.</p>
+            <a href="#contacto" class="cta-btn">Reserva tu cita ahora</a>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="quienes-somos">
+        <h2>Conoce a Nuestro Equipo</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="dentista1.jpg" alt="Dentista 1" class="team-photo">
+                <h3>Dr. Juan Pérez</h3>
+                <p>Especialista en Odontología General</p>
+            </div>
+            <div class="team-member">
+                <img src="dentista2.jpg" alt="Dentista 2" class="team-photo">
+                <h3>Dr. Ana Gómez</h3>
+                <p>Especialista en Ortodoncia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h2>Servicios que Ofrecemos</h2>
+        <div class="service-cards">
+            <div class="service-card" data-aos="fade-up">
+                <img src="implantes.jpg" alt="Implantes dentales">
+                <h3>Implantes Dentales</h3>
+                <p>Recupera tu sonrisa con implantes de última tecnología.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <img src="ortodoncia.jpg" alt="Ortodoncia">
+                <h3>Ortodoncia</h3>
+                <p>Tratamientos personalizados para alinear tus dientes de forma efectiva.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <img src="blanqueamiento.jpg" alt="Blanqueamiento Dental">
+                <h3>Blanqueamiento Dental</h3>
+                <p>Obtén una sonrisa más blanca y brillante con nuestro tratamiento seguro.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Consultorio Dental. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
